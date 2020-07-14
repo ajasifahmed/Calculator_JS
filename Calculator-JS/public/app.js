@@ -5,12 +5,10 @@ function clearText()
     }
 function cE()
 {
-    var text1 = document.getElementById("result").value;
-    var result = text1.split("").join("");
-    document.getElementById("result").value = result.slice(0,-1);
-    
+    var result=document.getElementById('result');
+    var result=result.value;
+    var result=result.clear();
 }
-
 function getNumber(num)
 {
     var txt=document.getElementById('result');
